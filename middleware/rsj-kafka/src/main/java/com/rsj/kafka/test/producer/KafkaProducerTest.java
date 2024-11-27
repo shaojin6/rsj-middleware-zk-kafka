@@ -24,7 +24,7 @@ public class KafkaProducerTest {
 //        KafkaProducer<String, String> producer = new KafkaProducer<String, String>(configMap);
         KafkaProducer<String, String> producer = new KafkaProducer<>(configMap);
 
-        // 创建数据
+        //创建数据--
 //        ProducerRecord<String, String> record = new ProducerRecord<>(
 //                topic: "test", key: "key", value: "value"
 //        );
